@@ -13,14 +13,14 @@ if(g==1)
 else 
   PI=((taille-100)-(taille-150))/2;
 printf("Le poids ideal de la personne est %.2f Kg:\n",PI);
- /*Affichage indicateur d'obésité*/
+ /*Affichage indicateur d'obÃ©sitÃ©*/
  BMI= poids/(taille*taille);
  printf("L'indicateur d'obesite est %.4f Kg :\n", BMI);
  if (BMI<27)
-  printf("L'état de la personne est NORMAL");
+  printf("L'Ã©tat de la personne est NORMALE");
   else if (BMI<32)
-   printf("L'état de la personne est OBESE");
+   printf("L'Ã©tat de la personne est OBESE");
 else 
-printf("L'état de la personne est MALADE");
+printf("L'Ã©tat de la personne est MALADE");
 return 0;
 }  
